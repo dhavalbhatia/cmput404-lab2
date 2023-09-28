@@ -1,0 +1,9 @@
+Q1) The second argument of the socket() method call defines the protocol,
+    specifically SOCK_STREAM indicates it is a TCP socket.
+Q2) A client socket establishes a connection to a server. 
+    A server socket listens to incoming client connections.
+Q3) This line (s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)) allows us to reuse 
+    the address and port.
+Q4) IP, port of client. By conn, addr = s.accept()
+Q5) We return whatever data is being sent to the server
+Q6) 
